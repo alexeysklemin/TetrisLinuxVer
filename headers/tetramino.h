@@ -1,3 +1,4 @@
+#include <SFML/Graphics.hpp>
 class  tetramino{
 
 	int coodinateX;
