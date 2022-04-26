@@ -1,4 +1,5 @@
-#include "tetramino.h"
+#include <SFML/Graphics.hpp>
+#include "../headers/tetramino.h"
 
 class tetramino{
 	int x;
@@ -7,12 +8,13 @@ class tetramino{
 
 	void moving (int x, int y){
 	
-	x++;
-	y--;
+		x++;
+		y--;
 	};
 
 	void rotate (int x, int y){
 
-	x--;
-	y++;
+		x--;
+		y++;
 	};
+}
