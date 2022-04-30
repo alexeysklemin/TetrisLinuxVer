@@ -8,4 +8,4 @@ class  tetramino{
 void moving (int x, int y);
 
 void rotate (int x, int y);
-}
+};

@@ -10,11 +10,14 @@ class tetramino{
 	
 		x++;
 		y--;
+
 	};
 
 	void rotate (int x, int y){
 
 		x--;
 		y++;
+
 	};
+
 }
